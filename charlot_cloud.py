@@ -4947,10 +4947,10 @@ def main() -> None:
     init_db()
     init_session_state()
 
-    # Require authentication before reading/writing per-user data.
-    if not current_user_id():
-        login_screen()
-        return
+    # # Require authentication before reading/writing per-user data.
+    # if not current_user_id():
+    #     login_screen()
+    #     return
 
     sync_session_from_db()
     reconcile_carrots_with_cards()
