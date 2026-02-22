@@ -420,8 +420,8 @@ div[data-testid="stTabs"] [aria-selected="true"] {{
 
 /* Desktop segmented nav (radio) */
 div[data-testid="stRadio"] > div {{
-  margin-left: 30px;
-  margin-right: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
   background: linear-gradient(180deg, var(--surface), var(--surface2));
   border: 1px solid var(--line);
   border-radius: 30px;
