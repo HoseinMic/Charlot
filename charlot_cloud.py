@@ -123,12 +123,12 @@ THEMES = {
 
 PAGES = [
     ("🏠", "Home"),
+    ("🔁", "Import/Export"),
     ("📚", "Dictionary"),
     ("🧠", "Review"),
     ("🗂️", "Cards"),
     ("📝", "Notes"),
     ("📘", "Grammar"),
-    ("🔁", "Import"),
     ("⚙️", "Settings"),
     ("❓", "About"),
 ]
