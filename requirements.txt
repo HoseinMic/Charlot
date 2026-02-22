@@ -1,0 +1,6 @@
+# Charlot (charlot_cloud.py) requirements
+streamlit
+requests
+pymupdf
+mlconjug3
+reverso-api
