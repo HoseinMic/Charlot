@@ -126,11 +126,11 @@ PAGES = [
     ("📚", "Dictionary"),
     ("🧠", "Review"),
     ("🗂️", "Cards"),
-    ("📝", "Notes"),
+    ("📝", "Note"),
     ("📘", "Grammar"),
     ("🔁", "Import"),
     ("⚙️", "Settings"),
-    ("❓", "About"),
+    ("❓", "About Charlot"),
 ]
 
 # =========================
@@ -420,8 +420,6 @@ div[data-testid="stTabs"] [aria-selected="true"] {{
 
 /* Desktop segmented nav (radio) */
 div[data-testid="stRadio"] > div {{
-  margin-left: 20px;
-  margin-right: 20px;
   background: linear-gradient(180deg, var(--surface), var(--surface2));
   border: 1px solid var(--line);
   border-radius: 30px;
@@ -4970,7 +4968,7 @@ def main() -> None:
         review_page()
     elif nav == "Cards":
         manage_cards_page()
-    elif nav == "Notes":
+    elif nav == "Note":
         notebook_page()
     elif nav == "Grammar":
         grammar_page()
@@ -4978,7 +4976,7 @@ def main() -> None:
         import_export_page()
     elif nav == "Settings":
         settings_page()
-    elif nav == "About":
+    elif nav == "About Charlot":
         about_page()
     else:
         home_page()
